@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    <body>
+        <!-- MENU DO SISTEMA -->
+        <?php include './header.php'; ?>
+        <!-- FIM MENU DO SISTEMA -->
+        <div class="col-12" align="center"><img width="80%" src="https://i.imgur.com/ORRxAD7.jpg"></div>
+	<br><br>
+            <div class="container">
+		<div class="row">
+    		<div class="col-6" align="center">
+      			<img src="https://i.imgur.com/izT4C85.jpg" width="100%">
+    		</div>
+    		<div class="col-6" align="center">
+    			<br><br><br><br>
+      			<h1>Artistas</h1>
+      			<p>O lugar ideal para você que está em busca de oportunidades para alavancar na sua vida profissional.</p>
+    		</div>
+  		</div>
+		<div class="row">
+    		<div class="col-6" align="center">
+    			<br><br><br><br>
+      			<h1>Contratantes</h1>
+      			<p>O local perfeito para encontrar pessoas capacitadas para tocarem em seus eventos, de forma rápida e fácil. Eventos Encontre os eventos de seu interesse que estão acontecendo no momento, em tempo real.</p>
+    		</div>
+    		<div class="col-6" align="center">
+      			<img src="https://i.imgur.com/9TtVgEh.png" width="100%">
+    		</div>
+  		</div>
+		<div class="row">
+    		<div class="col-6" align="center">
+      			<img src="https://i.imgur.com/fo2MHz4.png" width="100% ">
+    		</div>
+    		<div class="col-6" align="center">
+    			<br><br><br><br>
+      			<h1>Eventos</h1>
+      			<p>Encontre os eventos de seu interesse que estão acontecendo no momento, em tempo real.</p>
+    		</div>
+  		</div>
+            </div>
+  		<br><br>
+       
+        <!-- RODAPÉ DA PÁGINA -->
+      
+        <!-- RODAPÉ DA PÁGINA -->
+
+    </body>
+      <?php include './footer.php'; ?>
+</html>
