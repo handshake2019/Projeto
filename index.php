@@ -17,7 +17,7 @@
             <div class="container">
 		<div class="row">
     		<div class="col-6" align="center">
-      			<img src="https://i.imgur.com/izT4C85.jpg" width="100%">
+      			<a href="Artistas.php"><img src="https://i.imgur.com/izT4C85.jpg" width="100%"></a>
     		</div>
     		<div class="col-6" align="center">
     			<br><br><br><br>
@@ -32,12 +32,12 @@
       			<p>O local perfeito para encontrar pessoas capacitadas para tocarem em seus eventos, de forma rápida e fácil. Eventos Encontre os eventos de seu interesse que estão acontecendo no momento, em tempo real.</p>
     		</div>
     		<div class="col-6" align="center">
-      			<img src="https://i.imgur.com/9TtVgEh.png" width="100%">
+      			<a href="Contratantes.php"><img src="https://i.imgur.com/9TtVgEh.png" width="100%"></a>
     		</div>
   		</div>
 		<div class="row">
     		<div class="col-6" align="center">
-      			<img src="https://i.imgur.com/fo2MHz4.png" width="100% ">
+      			<a href="Eventos.php"><img src="https://i.imgur.com/fo2MHz4.png" width="100% "></a>
     		</div>
     		<div class="col-6" align="center">
     			<br><br><br><br>
