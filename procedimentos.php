@@ -17,8 +17,9 @@ $stmtSelect = $bdcon->prepare($sqlSelect);
 $stmtSelect->bindValue(':usuario', $_usuario);
 $stmtSelect->execute();
 if ($stmtSelect->rowCount() > 0) {
-
-    echo "O usuário já se encontra cadastrado";
+	echo "<script>alert('O usuário já se encontra cadastrado!');</script>";
+	echo "<script>location.href='cadastro.php'</script>";
+    //echo "O usuário já se encontra cadastrado";
 } else {
     $_nome = $_POST["etdnome"];
     $_data = $_POST["etddata"];
@@ -34,7 +35,8 @@ if ($stmtSelect->rowCount() > 0) {
     $stmt->bindValue(':email', $_email);
     $stmt->bindValue(':senha', $_senha);
     $stmt->execute();
-    echo "com sucesso";
+    echo "<script>alert('Usuário Cadastrado com Sucesso!');</script>";
+	echo "<script>location.href='index.php'</script>";
 }
 $bdcon = null;
 ?>

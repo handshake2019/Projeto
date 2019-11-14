@@ -22,7 +22,8 @@ $_email = $_POST["etdemail"];
     $stmt->bindValue(':mensagem', $_mensagem);
     
     $stmt->execute();
-    header("Location: confirma.php");
+    echo  "<script>alert('Sua mensagem foi enviada com sucesso!');</script>";
+    echo "<script>location.href='faleconosco.php'</script>";
 
 $bdcon = null;
 ?>
